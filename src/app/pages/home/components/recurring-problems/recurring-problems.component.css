@@ -1,0 +1,8 @@
+#recurringProblems {
+  padding: 5vw;
+
+  & img {
+    width: 45vw;
+    object-fit: contain;
+  }
+}
