@@ -1,0 +1,29 @@
+#banner {
+  background: url("../../../../../../public/assets/images/bannerBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: white;
+
+  & > div {
+    margin: auto;
+
+    & > div {
+      margin-bottom: 4vh;
+
+      & > p:first-of-type {
+        font-size: 180%;
+
+        font-weight: bold;
+      }
+    }
+  }
+
+  & > img {
+    width: 40%;
+
+    object-fit: contain;
+
+    filter: drop-shadow(0 0 20px rgb(94, 94, 94));
+  }
+}

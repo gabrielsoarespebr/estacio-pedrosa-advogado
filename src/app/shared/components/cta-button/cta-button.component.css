@@ -1,0 +1,53 @@
+a {
+  width: fit-content;
+
+  margin: auto;
+
+  border-radius: 0.2rem;
+
+  background: linear-gradient(30deg, #0a6bd3, #63a9f5);
+  color: white;
+
+  padding: 0.7rem 3.5rem;
+
+  text-decoration: none;
+  font-style: italic;
+
+  transition: ease-in-out 0.5s;
+
+  & > i {
+    font-weight: 600;
+  }
+
+  & > p {
+    text-align: center;
+
+    font-weight: 700;
+  }
+
+  &:hover {
+    box-shadow: 0 0 20px #0054ae;
+
+    transform: scale(1.03);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  a {
+    padding: 0.7rem 1.5rem;
+
+    justify-content: space-between;
+
+    & > i {
+      font-size: 300%;
+
+      font-weight: 400;
+    }
+
+    & > p {
+      text-align: center;
+
+      font-weight: 800;
+    }
+  }
+}
