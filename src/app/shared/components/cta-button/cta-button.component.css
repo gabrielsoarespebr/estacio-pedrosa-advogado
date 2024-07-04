@@ -15,14 +15,12 @@ a {
 
   transition: ease-in-out 0.5s;
 
-  & > i {
-    font-weight: 600;
-  }
-
   & > p {
     text-align: center;
 
-    font-weight: 700;
+    font-size: 95%;
+
+    transform: translateY(-0.1rem);
   }
 
   &:hover {

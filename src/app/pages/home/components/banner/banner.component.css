@@ -5,14 +5,17 @@
 
   color: white;
 
+  padding-left: 7vw;
+  padding-right: 4vw;
+
   & > div {
     margin: auto;
 
     & > div {
-      margin-bottom: 4vh;
+      margin-bottom: 5vh;
 
       & > p:first-of-type {
-        font-size: 180%;
+        font-size: 150%;
 
         font-weight: bold;
       }
@@ -24,6 +27,6 @@
 
     object-fit: contain;
 
-    filter: drop-shadow(0 0 20px rgb(94, 94, 94));
+    filter: drop-shadow(0 0 18px rgb(52, 52, 52));
   }
 }

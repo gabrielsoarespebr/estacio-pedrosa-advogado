@@ -1,4 +1,7 @@
 header {
+
+  padding: 0 7vw;
+
   & #logo {
     width: 10vw;
     padding: 1vh 0;
