@@ -2,7 +2,7 @@
   padding: 5vw;
 
   & img {
-    width: 45vw;
+    width: 62%;
     object-fit: contain;
   }
 }
