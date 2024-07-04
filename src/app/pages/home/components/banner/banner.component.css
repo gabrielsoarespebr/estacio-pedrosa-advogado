@@ -26,7 +26,5 @@
     width: 40%;
 
     object-fit: contain;
-
-    filter: drop-shadow(0 0 18px rgb(52, 52, 52));
   }
 }
