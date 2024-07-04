@@ -2,7 +2,13 @@
   padding: 5vw;
 
   & img {
-    width: 62%;
+    width: 40%;
     object-fit: contain;
+  }
+
+  & ul{
+    list-style-type: square;
+
+    margin-bottom: 5vh;
   }
 }
