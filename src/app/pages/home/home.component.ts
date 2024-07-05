@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { BannerComponent } from './components/banner/banner.component';
 import { HeaderComponent } from './components/header/header.component';
 import { RecurringProblemsComponent } from './components/recurring-problems/recurring-problems.component';
+import { CompetitiveEdgesComponent } from './components/competitive-edges/competitive-edges.component';
 
 @Component({
   selector: 'app-home',
@@ -12,6 +13,7 @@ import { RecurringProblemsComponent } from './components/recurring-problems/recu
     BannerComponent,
     RecurringProblemsComponent,
     AboutComponent,
+    CompetitiveEdgesComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
