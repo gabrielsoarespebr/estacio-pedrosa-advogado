@@ -1,0 +1,30 @@
+#about {
+  background: url("../../../../../../public/assets/images/aboutBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: white;
+
+  padding-left: 7vw;
+  padding-right: 4vw;
+
+  & > div {
+    margin: auto;
+
+    & > div {
+      margin-bottom: 5vh;
+
+      & > p:first-of-type {
+        font-size: 150%;
+
+        font-weight: bold;
+      }
+    }
+  }
+
+  & > img {
+    width: 40%;
+
+    object-fit: contain;
+  }
+}
