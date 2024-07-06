@@ -36,16 +36,8 @@ a {
 
     justify-content: space-between;
 
-    & > i {
-      font-size: 300%;
-
-      font-weight: 400;
-    }
-
     & > p {
       text-align: center;
-
-      font-weight: 800;
     }
   }
 }

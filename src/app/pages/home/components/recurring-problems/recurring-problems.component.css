@@ -6,9 +6,47 @@
     object-fit: contain;
   }
 
-  & ul{
+  & ul {
     list-style-type: square;
 
     margin-bottom: 5vh;
+  }
+}
+
+@media screen and (max-width: 1018px) {
+  #recurringProblems > div {
+    padding-top: 5vh;
+
+    flex-direction: column;
+
+    & > img {
+      width: 60%;
+
+      margin: auto;
+    }
+
+    & li {
+      margin-bottom: 2vh;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #recurringProblems {
+    padding-bottom: 10vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
+
+    & > div {
+      text-align: center;
+
+      & > img {
+        width: 100%;
+      }
+    }
   }
 }

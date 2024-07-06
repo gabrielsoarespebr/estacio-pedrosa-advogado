@@ -1,14 +1,41 @@
 #competitiveEdges {
   padding: 5vw;
 
+  & > div {
+    margin-bottom: 2vh;
+  }
+
   & img {
     width: 38%;
     object-fit: contain;
   }
+}
 
-  & ul{
-    list-style-type: square;
+@media screen and (max-width: 1018px) {
+  #competitiveEdges > div {
+    padding-top: 7vh;
 
-    margin-bottom: 5vh;
+    flex-direction: column-reverse;
+
+    & > img {
+      width: 60%;
+
+      margin: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #competitiveEdges {
+    padding: 3vh 10vw 10vh 10vw;
+
+    & > div {
+      text-align: center;
+      margin-bottom: 3vh;
+
+      & > img {
+        width: 100%;
+      }
+    }
   }
 }

@@ -6,8 +6,6 @@
 
   border-radius: 0.2rem;
 
-  font-size: 120%;
-
   bottom: 3rem;
   right: 3rem;
 
@@ -28,5 +26,15 @@
     box-shadow: 0 0 5px white;
 
     transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #scrollUpButton {
+    bottom: 3.5rem;
+    right: 1.5rem;
+
+    width: 2rem;
+    height: 2rem;
   }
 }

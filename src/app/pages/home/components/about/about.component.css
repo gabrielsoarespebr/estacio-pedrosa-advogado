@@ -28,3 +28,31 @@
     object-fit: contain;
   }
 }
+
+@media screen and (max-width: 1018px) {
+  #about {
+    flex-direction: column-reverse;
+
+    padding-top: 9vh;
+
+    & > img {
+      width: 50%;
+      margin: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    flex-direction: column-reverse;
+
+    padding-right: 10vw;
+    padding-left: 10vw;
+
+    text-align: center;
+
+    & > img {
+      width: 100%;
+    }
+  }
+}
