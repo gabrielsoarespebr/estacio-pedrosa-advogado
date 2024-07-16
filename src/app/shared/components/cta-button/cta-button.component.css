@@ -5,7 +5,7 @@ a {
 
   border-radius: 0.2rem;
 
-  background: linear-gradient(30deg, #0a6bd3, #63a9f5);
+  background: linear-gradient(30deg, #00C398, #25d366);
   color: white;
 
   padding: 0.7rem 3.5rem;
@@ -24,7 +24,7 @@ a {
   }
 
   &:hover {
-    box-shadow: 0 0 20px #0054ae;
+    box-shadow: 0 0 20px #00C398;
 
     transform: scale(1.03);
   }
