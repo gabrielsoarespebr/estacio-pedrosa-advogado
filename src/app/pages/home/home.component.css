@@ -7,7 +7,7 @@
   border-radius: 0.2rem;
 
   bottom: 3rem;
-  right: 3rem;
+  left: 3rem;
 
   width: 3rem;
   height: 3rem;
@@ -29,12 +29,62 @@
   }
 }
 
+#whatsappFixedIcon {
+  position: fixed;
+
+  right: 2.9rem;
+  bottom: 1.8rem;
+
+  font-size: 3.5rem;
+
+  color: white;
+
+  background-color: #25d366;
+
+  padding: 0.8rem 1rem;
+
+  border-radius: 50%;
+
+  filter: drop-shadow(0 0 7px rgb(104, 104, 104));
+
+  transition: ease-in-out 0.5s;
+
+  &:hover {
+    background-color: #22bf5b;
+
+    transform: scale(1.1);
+  }
+}
+
+#whatsappFixedIcon:after {
+  content: "1";
+  background-color: #fd3d31;
+
+  border-radius: 50%;
+
+  padding: 0.6rem 0.8rem;
+
+  font-size: 25%;
+
+  position: absolute;
+
+  top: -0.8vh;
+  right: -0.8vw;
+}
+
 @media screen and (max-width: 768px) {
   #scrollUpButton {
     bottom: 3.5rem;
-    right: 1.5rem;
+    left: 1.5rem;
 
     width: 2rem;
     height: 2rem;
+  }
+
+  #whatsappFixedIcon {
+    right: 2.2rem;
+    bottom: 3.2rem;
+
+    font-size: 2rem;
   }
 }
